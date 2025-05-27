@@ -14,21 +14,37 @@ int main(){
 	int pw;
 	int semester;
 	char mhs;
+	char admin;
+	char pengunjung;
 	
 	
+	usn = admin;
+	password = 1994;
 	cout<<"Masukkan username: ";
 	cin>>usn;
 	cout<<"Masukkan password: ";
 	cin>>password;
 	
+	if(usn == usn, password == password){
+		cout<<"anda admin"<<endl;
+	}else{
+		cout<<"anda pengunjung"<<endl;
+	}
+	cout<<"mendaftarkan data ruangan kelas"<<endl;
 	cout<<"kapasitas kelas: ";
 	cin>>kapasitas;
 	cout<<"lokasi : ";
 	cin>>lokasi;
 	cout<<"fasilitas : ";
 	cin>>fasilitas;
-	
 	cout<<kapasitas<<","<<lokasi<<","<<fasilitas<<endl;
+	if(admin ==1, pengunjung ==0){
+		cout<<"ingin mengubah?"<<endl;
+		return 0;
+	}else{
+		cout<<"tidak dapat mengubah"<<endl;
+	}
+	
 	
 	cout<<"masukkan matakuliah: ";
 	cin>>matkul;
@@ -39,6 +55,7 @@ int main(){
 	cout<<"masukkan kebutuhan: ";
 	cin>>butuh;
 	cout<<matkul<<","<<dosen<<","<<waktu<<","<<butuh<<endl;
+	
 	
 	cout<<"LOGIN SIMERU"<<endl;
 	user = mhs;
